@@ -32,8 +32,14 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-['from Sastrawi.Stemmer.StemmerFactory import StemmerFactory', 'import swifter', '', '', '# create stemmer']
-...
-['def get_stemmed_term(document):', '    return [term_dict[term] for term in document]', '', 'Tweets_dfs["tweet"] = Tweets_dfs["tweet"].swifter.apply(get_stemmed_term)', 'Tweets_dfs["tweet"]']
+%%capture
+!pip install scrapy
+!pip install pandas
+!pip install scikit-learn
+!pip install --user -U nltk
+
+!pip install scipy
+!pip install networkx
+
 -------------------
 
