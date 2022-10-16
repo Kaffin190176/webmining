@@ -12,9 +12,9 @@
 ```{list-table}
 
 * - Nama
-  - Bihubbil Choir Aidifta
+  - Kaffin Ahmad Mukhtasor
 * - NIM
-  - 190411100121
+  - 190411100176
 * - Kelas
   - Pencarian & Penambangan Web (A)
 * - Dosen Pengampu
