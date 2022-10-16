@@ -1,7 +1,7 @@
 # Tentang Buku
 
 
-{image} ../webmining/Salinan Kaffin_401_A.jpeg
+{image} ../WebMining/Kaffin_401_A.jpeg
 :alt: fishy
 :class: bg-primary mb-1
 :width: 300px
