@@ -1,11 +1,31 @@
-# Welcome to your Jupyter Book
+# Tentang Buku
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
 
-Check out the content pages bundled with this sample book to see more.
+{image} ../webmining/Salinan Kaffin_401_A.jpeg
+:alt: fishy
+:class: bg-primary mb-1
+:width: 300px
+:align: center
 
-```{tableofcontents}
-```
+{admonition} Biodata Penulis
+{list-table}
+* - Nama
+  - Kaffin Ahmad Mukhtasor
+* - NIM
+  - 190411100176
+* - Kelas
+  - Pencarian & Penambangan Web (A)
+* - Dosen Pengampu
+  - MULA'AB, S.Si., M.Kom
+* - Prodi
+  - Teknik Informatika - Universitas Trunojoyo Madura
+
+
+
+
+```{admonition} Informasi Mengenai Buku
+Buku atau halaman ini merupakan sarana yang dibuat dengan tujuan sebagai media pembelajaran dan pengumpulan tugas, khususnya terkait mata kuliah Pencarian & Penambangan Web Teknik Informatika Universitas Trunojoyo Madura 2022/2023. 
+
+
+Berikut ini merupakan daftar isi yang ada di buku ini :
+{tableofcontents}
