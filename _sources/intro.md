@@ -1,12 +1,7 @@
 # Tentang Buku
 
 
-```{image} ../webmining/_static/Kaffin_401_A.jpeg
-:alt: fishy
-:class: bg-primary mb-1
-:width: 300px
-:align: center
-```
+
 ```{admonition} Biodata Penulis
 
 ```{list-table}
