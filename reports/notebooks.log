@@ -32,8 +32,14 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-['from Sastrawi.Stemmer.StemmerFactory import StemmerFactory', 'import swifter', '', '', '# create stemmer']
-...
-['def get_stemmed_term(document):', '    return [term_dict[term] for term in document]', '', "data_abstrak['Abstrac'] = data_abstrak['Abstrac'].swifter.apply(get_stemmed_term)", "data_abstrak['Abstrac']"]
+
+for term in term_dict:
+    term_dict[term] = stemmed_wrapper(term)
+    print(term,":" ,term_dict[term])
+    
+print(term_dict)
+print("------------------------")
+
+
 -------------------
 
