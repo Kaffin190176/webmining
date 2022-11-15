@@ -32,8 +32,14 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-!git clone --depth=1 https://github.com/twintproject/twint.git
-%cd twint
-!pip3 install . -r requirements.txt
+%%capture
+!pip install scrapy
+!pip install pandas
+!pip install scikit-learn
+!pip install --user -U nltk
+
+!pip install scipy
+!pip install networkx
+
 -------------------
 
